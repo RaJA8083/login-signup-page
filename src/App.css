@@ -1,5 +1,29 @@
 .App {
+  display: flex;
   text-align: center;
+  width:'2000px';
+  height:'2000px';
+  background-color:rgb(134, 36, 101);
+  align-items: center;
+  min-height: 100vh;
+  font-size: calc(20px + 5vmin);
+      flex-direction: column;
+}
+.Login{
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgb(134,36,101);
+  align-items: center;
+  vertical-align:center;
+  flex-direction: column;
+  width:'2000px';
+  height:'2000px';
+  
+
+}
+.Jumbotron{
+
 }
 
 .App-logo {
@@ -14,7 +38,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(21, 145, 37);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +49,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e43f0d;
 }
 
 @keyframes App-logo-spin {
